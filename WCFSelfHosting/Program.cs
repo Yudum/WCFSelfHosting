@@ -17,7 +17,7 @@ namespace WCFSelfHosting
             Console.WriteLine("Servisi durdurmak için Enter'a basınız");
             Console.ReadLine();
             host.Close();
-            Console.WriteLine("Servisin Durumu : " + host.State);
+            Console.WriteLine("Servisin Durumu sacmalama lan : " + host.State);
             Console.ReadLine();
         }
     }
